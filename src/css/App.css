@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* Fonts */
+
+:root {
+    --font-1 : "Public Sans", sans-serif;
+    --font-2 : "DM Serif Display", serif;
+
+    --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+
+/* Page Display */
+
+#site-container {
+    max-width: 100%;
+    margin: auto;
+}
+
+#mobile-error {
+    display: none;
+}
+
+@media (max-width: 700px) {
+  #mobile-error {
+    display: block;
+  }
+  #site-container {
+    display: none;
+  }
+}
+
+/* Global Styling */
+
+* {
+    color: var(--black);
+    background-color: var(--creme);
+    font-family: var(--font-2);
+}
+
+.wide {
+    margin: 0 4rem;
+}
+
+.narrow {
+    margin: 0 7rem;
+}
+
+
+/* Colors */
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --off-black: #141516;
+    --dark-gray: #404040;
+    --gray: #7F7F7F;
+    --light-gray: #B3B3B3;
+    --lightest-gray: #CCCCCC;
+    --creme: #fefaf6;
+
+    --rainbow-gradient-one: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+}

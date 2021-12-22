@@ -1,0 +1,17 @@
+#home-wrapper .introduction {
+    margin-top: 10rem;
+}
+
+#home-wrapper h1.intro-greeting {
+    font-size: 4.5rem;
+    background: var(--rainbow-gradient-one);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home-wrapper p.intro-greeting {
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin-top: 2rem;
+}

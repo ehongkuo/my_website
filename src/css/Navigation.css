@@ -1,0 +1,23 @@
+#navigation-wrapper {
+    border          : transparent solid 1px;
+    width           : 85%;
+    height          : 5rem;
+    margin          : auto;
+    position        : sticky;
+    display         : flex;
+    flex-flow       : row nowrap;
+    justify-content : space-around;
+    align-items     : center;
+    text-transform  : uppercase;
+}
+
+#navigation-wrapper .tab a {
+    color           : var(--gray);
+    text-decoration : none;
+
+}
+
+#navigation-wrapper .on-home {
+    background-color: var(--white);
+    border          : red solid 2px;
+}
