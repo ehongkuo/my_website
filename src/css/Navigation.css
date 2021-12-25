@@ -14,10 +14,15 @@
 #navigation-wrapper .tab a {
     color           : var(--gray);
     text-decoration : none;
+    transition      : 0.3s;
+    
+}
 
+#navigation-wrapper .tab a:hover {
+    color           : var(--gold);
+    transition      : 0.3s;
 }
 
 #navigation-wrapper .on-home {
-    background-color: var(--white);
     border          : red solid 2px;
 }

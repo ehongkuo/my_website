@@ -11,14 +11,14 @@ function Navigation() {
                 </NavLink>
                 
             </div>
-            <div className="about-tab tab">
-                <NavLink exact to="/about" activeClassName="on-about">
-                    About
-                </NavLink>
-            </div>
             <div className="work-tab tab">
                 <NavLink exact to="/work" activeClassName="on-work">
                     Work
+                </NavLink>
+            </div>
+            <div className="about-tab tab">
+                <NavLink exact to="/about" activeClassName="on-about">
+                    About
                 </NavLink>
             </div>
             <div className="contact-tab tab">

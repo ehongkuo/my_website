@@ -1,8 +1,9 @@
 #home-wrapper .introduction {
-    margin-top: 10rem;
+    justify-content: center;
 }
 
 #home-wrapper h1.intro-greeting {
+    margin-top: 10rem;
     font-size: 4.5rem;
     background: var(--rainbow-gradient-one);
     background-clip: text;
@@ -14,4 +15,70 @@
     font-size: 1.5rem;
     color: var(--gray);
     margin-top: 2rem;
+}
+
+#home-wrapper a.intro-about {
+    color: var(--gray);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#home-wrapper a.intro-about:hover {
+    color: var(--gold);
+    transition: 0.3s;
+}
+
+#home-wrapper .arrow {
+    display: inline-block;
+    height: 20px;
+    width: auto !important;
+    margin-left: 10px;
+}
+
+#home-wrapper .link img {
+    transition: all 0.5s;
+}
+
+#home-wrapper .link:hover > img {
+    transform: translateX(10px);
+}
+
+#home-wrapper .intro-profile {
+    width: 80%;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    box-shadow: var(--inner-outer-shadow);
+}
+
+/* Blobs */
+
+#home-wrapper .blob {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 20px;
+}
+
+#home-wrapper .b-one {
+    background: var(--gradient-one);
+    right: 41rem;
+    top: 8rem;
+}
+
+#home-wrapper .b-two {
+    background: var(--gradient-two);
+    right: 4.3rem;
+    top: 8rem;
+}
+
+#home-wrapper .b-three {
+    background: var(--gradient-five);
+    right: 41rem;
+    bottom: 6rem;
+}
+
+#home-wrapper .b-four {
+    background: var(--gradient-four);
+    right: 4.3rem;
+    bottom: 6rem;
 }
