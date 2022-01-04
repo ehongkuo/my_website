@@ -1,8 +1,13 @@
 import "../css/Home.css";
 import "../css/App.css";
 
-import Profile from "../images/Profile.png";
+import Project from "./Project";
+
+import Profile from "../images/Homepage_Image.jpg";
 import Arrow from "../images/right-arrow.svg";
+
+import CLW_Icon from "../images/CLW_Icon.jpg";
+import Personal_Icon from "../images/Personal_Website_Icon.png";
 
 function Home() {
     return (
@@ -21,13 +26,28 @@ function Home() {
                         </a>
                     </div>
                     <div className="col-md-6" align="center">
-                        <div className="blob b-one"></div>
-                        <div className="blob b-two"></div>
                         <img className="intro-profile" src={Profile} alt="profile" />
-                        <div className="blob b-three"></div>
-                        <div className="blob b-four"></div>
                     </div>
                 </div>
+            </div>
+            <div className="work narrow">
+                <h1 className="heading">Here's some of my favorite work:</h1>
+                <Project 
+                    link="/"
+                    icon={CLW_Icon}
+                    type="Frontend Development"
+                    name="CodeLab Webstite Redesign"
+                    description="Revamped CodeLab's website for improved intereactivity, marketing assets and student interest"
+                    tools="React, Figma, Node"
+                />
+                <Project 
+                    link="/"
+                    icon={Personal_Icon}
+                    type="Frontend, UI/UX Design"
+                    name="Personal Website 2.0"
+                    description="Optimized personal website using React and redesigned using Figma. You are currently looking at my new and improved website!"
+                    tools="React, Figma"
+                />
             </div>
         </div>
     )

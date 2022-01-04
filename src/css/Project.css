@@ -1,0 +1,57 @@
+#project-wrapper .codelab-website {
+    margin-top: 5rem;
+}
+
+#project-wrapper .icon-large {
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#project-wrapper .project-link {
+    text-decoration: none;
+}
+
+#project-wrapper .codelab-website:hover .icon-large {
+    transform: scale(1.01);
+}
+
+#project-wrapper .codelab-website:hover .project-arrow {
+    transform: translateX(10px);
+}
+
+#project-wrapper .project-details {
+    margin-top: 4rem;
+}
+
+#project-wrapper .type {
+    color: var(--gray);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+#project-wrapper .name {
+    color: var(--off-black);
+    font-size: 32px;
+    margin-left: 1rem;
+}
+
+#project-wrapper .description {
+    color: var(--off-black);
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+#project-wrapper .tools {
+    color: var(--light-gray);
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+#project-wrapper .project-arrow {
+    height: 24px;
+    margin-left: 1rem;
+    transition: all 0.5s;
+}

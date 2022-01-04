@@ -1,5 +1,6 @@
 #home-wrapper .introduction {
     justify-content: center;
+    height: 100vh;
 }
 
 #home-wrapper h1.intro-greeting {
@@ -44,41 +45,17 @@
 }
 
 #home-wrapper .intro-profile {
-    width: 80%;
-    margin-top: 6rem;
-    border-radius: 2rem;
-    box-shadow: var(--inner-outer-shadow);
+    width: 65vh;
+    z-index: 100;
+    margin-top: 2rem;
 }
 
-/* Blobs */
+/* Work */
 
-#home-wrapper .blob {
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 20px;
+#home-wrapper .work {
+    height: 100vh;
 }
 
-#home-wrapper .b-one {
-    background: var(--gradient-one);
-    right: 41rem;
-    top: 8rem;
-}
-
-#home-wrapper .b-two {
-    background: var(--gradient-two);
-    right: 4.3rem;
-    top: 8rem;
-}
-
-#home-wrapper .b-three {
-    background: var(--gradient-five);
-    right: 41rem;
-    bottom: 6rem;
-}
-
-#home-wrapper .b-four {
-    background: var(--gradient-four);
-    right: 4.3rem;
-    bottom: 6rem;
+#home-wrapper .heading {
+    margin-top: 3rem;
 }
