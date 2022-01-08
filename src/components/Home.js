@@ -10,6 +10,7 @@ import Arrow from "../images/right-arrow.svg";
 import CLW_Icon from "../images/CLW_Icon.jpg";
 import Personal_Icon from "../images/Personal_Website_Icon.png";
 import Explorer_Icon from "../images/Terminal_Exp.png";
+import Website_1_Icon from "../images/Website_1_Icon.png";
 
 function Home() {
     return (
@@ -57,6 +58,14 @@ function Home() {
                     name="Terminal Explorer"
                     description="My first big class project will always be special to me. Click here to check it out!"
                     tools="UNIX, C++"
+                />
+                <Project
+                    link="/"
+                    icon={Website_1_Icon}
+                    type="Frontend Development"
+                    name="Personal Website"
+                    description="Designed and developed a personal website to demonstrate frontend knowledge and interest in software technologies"
+                    tools="Javascript, HTML, CSS"
                 />
             </div>
             <div className="footer">
