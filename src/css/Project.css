@@ -29,6 +29,7 @@
     font-size: 24px;
     text-transform: uppercase;
     margin-left: 1rem;
+    font-family: var(--font-1);
 }
 
 #project-wrapper .name {
@@ -41,6 +42,7 @@
     color: var(--off-black);
     font-size: 20px;
     margin-left: 1rem;
+    font-family: var(--font-1);
 }
 
 #project-wrapper .tools {
@@ -48,6 +50,7 @@
     font-size: 16px;
     font-style: italic;
     margin-left: 1rem;
+    font-family: var(--font-1);
 }
 
 #project-wrapper .project-arrow {

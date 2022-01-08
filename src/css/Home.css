@@ -1,6 +1,7 @@
 #home-wrapper .introduction {
     justify-content: center;
     height: 100vh;
+    padding-top: 5rem;
 }
 
 #home-wrapper h1.intro-greeting {
@@ -16,6 +17,7 @@
     font-size: 1.5rem;
     color: var(--gray);
     margin-top: 2rem;
+    font-family: var(--font-1);
 }
 
 #home-wrapper a.intro-about {
@@ -53,9 +55,9 @@
 /* Work */
 
 #home-wrapper .work {
-    height: 100vh;
+    
 }
 
 #home-wrapper .heading {
-    margin-top: 3rem;
+    padding-top: 8rem;
 }
