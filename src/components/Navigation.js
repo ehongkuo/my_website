@@ -9,10 +9,11 @@ function Navigation() {
                 <NavLink exact to="/" activeClassName="on-home">
                     Home
                 </NavLink>
-                
             </div>
             <div className="work-tab tab">
-                <a href="#work">Work</a>
+                <NavLink exact to="/work" activeClassName="on-home">
+                    Work
+                </NavLink>
             </div>
             <div className="about-tab tab">
                 <NavLink exact to="/about" activeClassName="on-about">

@@ -1,0 +1,147 @@
+#about-wrapper {
+    padding-top: 5rem;
+}
+
+#about-wrapper .introduction {
+    margin-top: 4rem;
+}
+
+#about-wrapper .about-profile {
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: var(--inner-outer-shadow);
+    margin-top: 4rem;
+}
+
+#about-wrapper .about-text {
+    margin-top: 0rem;
+}
+
+#about-wrapper .description {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-family: var(--font-1);
+}
+
+#about-wrapper .button {
+    color: var(--off-black);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+#about-wrapper .resume {
+    font-size: 1.5rem;
+}
+
+#about-wrapper .arrow {
+    height: 24px;
+    margin-left: 0.5rem;
+    transition: all 0.5s;
+}
+
+#about-wrapper .button:hover {
+    color: var(--gold);
+    
+}
+
+#about-wrapper .button:hover > .arrow {
+    transform: translateX(10px);
+}
+
+#about-wrapper .experience {
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#about-wrapper .heading {
+    margin-left: 1rem;
+}
+
+#about-wrapper .timeline {
+    padding-left: 5rem;
+}
+
+#about-wrapper .timeline {
+    margin: 4rem auto;
+    position: relative;
+}
+
+#about-wrapper .timeline:before {
+    background-color: black;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    width: 2px;
+    height: 100%;
+}
+
+#about-wrapper .timeline-event {
+    position: relative;
+    background-color: transparent;
+    right: 5rem;
+}
+
+#about-wrapper .timeline-event:hover .timeline-event-icon {
+    transform: rotate(-45deg);
+    background-color: var(--gold);
+}
+
+#about-wrapper .timeline-event:hover .timeline-event-thumbnail {
+    box-shadow: inset 40rem 0 0 0 var(--gold);
+}
+
+#about-wrapper .timeline-event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 80%;
+}
+
+#about-wrapper .timeline-event-copy h3 {
+    font-size: 1.75em;
+}
+
+#about-wrapper .timeline-event-copy h4 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#about-wrapper .timeline-event-icon {
+    transition: 0.2s;
+    transform: rotate(45deg);
+    background-color: black;
+    outline: 10px solid var(--creme);
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 1em;
+    height: 1em;
+}
+
+#about-wrapper .timeline-event-thumbnail {
+    transition: 1s;
+    color: white;
+    font-size: 0.75em;
+    background-color: black;
+    box-shadow: inset 0 0 0 0 var(--light-gray);
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    padding: 0.25rem 1rem 0.2rem 1rem;
+}
+
+#about-wrapper p {
+    font-family: var(--font-1);
+}
+
+#about-wrapper .cadCAD {
+    font-family: var(--font-1);
+}
+
+#about-wrapper .smaller {
+    height: 18px;
+}
