@@ -32,9 +32,6 @@ function Home() {
             <div className="work">
                 <Work />
             </div>
-            <div className="footer">
-                <Footer />
-            </div>
         </div>
     )
 }

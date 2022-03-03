@@ -18,7 +18,7 @@ function Footer() {
                 <div className="col-4" align="center">
                     <img className="linkedin-logo" src={LinkedIn} alt="linkedin-logo" />
                     <p className="subheading">Lets Connect!</p>
-                    <a className="info" href="https://www.linkedin.com/in/ehong-kuo-3b93b1204/" target="_blank">LinkedIn Profile</a>
+                    <a className="info" href="https://www.linkedin.com/in/ehong-kuo/" target="_blank">LinkedIn Profile</a>
                 </div>
                 <div className="col-2" align="center">
                     <img className="instagram-logo" src={Instagram} alt="instagram-logo" />

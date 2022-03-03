@@ -1,0 +1,79 @@
+
+#project-page-wrapper .introduction {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15rem;
+}
+
+#project-page-wrapper .logo {
+    height: 5rem;
+    width: auto;
+}
+
+#project-page-wrapper .heading {
+    margin-top: 2.5rem;
+}
+
+#project-page-wrapper .updated {
+    color: var(--gray);
+    font-style: italic;
+    font-family: var(--font-1);
+}
+
+#project-page-wrapper .subheading {
+    margin-top: 3rem;
+}
+
+#project-page-wrapper .description {
+    margin-top: 2rem;
+    font-family: var(--font-1);
+    font-size: 1.2rem;
+}
+
+#project-page-wrapper .img {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#project-page-wrapper .member {
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--font-1);
+    transition: 0.3s;
+}
+
+#project-page-wrapper .member:hover {
+    color: var(--gold);
+}
+
+#project-page-wrapper .ninad {
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--font-1);
+    transition: 0.3s;
+}
+
+#project-page-wrapper .link {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+#project-page-wrapper .link:hover {
+    transition: all 0.3s;
+    color: var(--gold);
+}
+
+#project-page-wrapper .arrow {
+    margin-left: 12px;
+    transition: all 0.5s;
+}
+
+#project-page-wrapper .link:hover > .arrow {
+    transform: translateX(1rem);
+
+}

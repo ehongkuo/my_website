@@ -15,7 +15,7 @@ function Work(props) {
              <div className="work narrow">
                 <h1 className="heading">Here's some of my favorite work:</h1>
                 <Project 
-                    link="/"
+                    link="/project-page"
                     icon={CLW_Icon}
                     type="Frontend Development"
                     name="CodeLab Webstite Redesign"
