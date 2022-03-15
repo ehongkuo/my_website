@@ -29,6 +29,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="background"></div>
             <div className="work">
                 <Work />
             </div>

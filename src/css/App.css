@@ -67,4 +67,5 @@
     --gradient-five: linear-gradient(180deg,#db85b4,#b097f2);
 
     --inner-outer-shadow: 4px 4px 4px rgba(0, 0, 0, 0.253), inset 4px 4px 4px rgba(255, 255, 255, 0.288);
+    --full-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.253);
 }

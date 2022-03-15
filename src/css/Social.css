@@ -1,0 +1,38 @@
+#social-wrapper {
+    
+}
+
+#social-wrapper .link:hover .figma {
+    transform: scale(1.02);
+    
+}
+
+#social-wrapper .link:hover .icon,
+#social-wrapper .link:hover .arrow {
+    transform: translateX(2rem);
+    
+}
+
+#social-wrapper .figma {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#social-wrapper .icons {
+    height: 5rem;
+}
+
+#social-wrapper .icon {
+    width: 70px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    transition: all 0.5s;
+}
+
+#social-wrapper .arrow {
+    width: 2rem;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    transition: all 1s;
+}
+

@@ -2,6 +2,7 @@ import "../css/Work.css";
 import "../css/App.css";
 
 import Project from "./Project";
+import Footer from "./Footer";
 
 import CLW_Icon from "../images/CLW_Icon.jpg";
 import Personal_Icon from "../images/Personal_Website_Icon.png";
@@ -31,7 +32,7 @@ function Work(props) {
                     tools="React, Figma"
                 />
                 <Project
-                    link="/"
+                    link="https://github.com/ehongkuo/Explorer-Game"
                     icon={Explorer_Icon}
                     type="Academic Project"
                     name="Terminal Explorer"
@@ -39,13 +40,16 @@ function Work(props) {
                     tools="UNIX, C++"
                 />
                 <Project
-                    link="/"
+                    link="https://ehongkuo.github.io/"
                     icon={Website_1_Icon}
                     type="Frontend Development"
                     name="Personal Website"
                     description="Designed and developed a personal website to demonstrate frontend knowledge and interest in software technologies"
                     tools="Javascript, HTML, CSS"
                 />
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </div>
     )

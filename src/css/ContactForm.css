@@ -1,0 +1,33 @@
+#contact-form-wrapper {
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: var(--full-shadow);
+    border-radius: 1rem;
+}
+
+#contact-form-wrapper .name-label,
+#contact-form-wrapper .email-label {
+    padding-right: 1.5rem;
+   
+}
+
+#contact-form-wrapper .message-label {
+    padding-right: 6px;
+}
+
+#contact-form-wrapper .name-input,
+#contact-form-wrapper .email-input,
+#contact-form-wrapper .message-textarea {
+    width: 80%;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+#contact-form-wrapper .button {
+    margin-top: 1rem;
+}
+
+#contact-form-wrapper .message-textarea {
+    font-family: var(--font-1);
+    font-size: 0.8rem;
+}

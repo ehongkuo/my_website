@@ -25,7 +25,7 @@ function About() {
                         These days, my time is spent completing coursework, adding new features to personal projects, and applying for internship positions. 
                         Out of the office, you'll find me playing guitar, shooting hoops at a nearby park, or at Chipotle.
                     </p>
-                    <a href="" className="button resume">
+                    <a href="https://drive.google.com/file/d/1a2YO8BSrBLg6sSdXYXX1Zw0GPP3I-XHu/view?usp=sharing" className="button resume" target="_blank">
                         View Resume
                         <img className="arrow" src={Arrow} alt="arrow" />
                     </a>

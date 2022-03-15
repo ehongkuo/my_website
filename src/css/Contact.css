@@ -1,0 +1,37 @@
+#contact-wrapper .heading {
+    padding-top: 10rem;
+}
+
+#contact-wrapper .description {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--font-1);
+}
+
+#contact-wrapper .links {
+    padding-top: 8rem;
+}
+
+#contact-wrapper .email-logo,
+#contact-wrapper .linkedin-logo,
+#contact-wrapper .instagram-logo {
+    height: 70px;
+}
+
+#contact-wrapper .linkedin-logo,
+#contact-wrapper .instagram-logo {
+    margin-top: 9rem;
+}
+
+#contact-wrapper .email {
+    margin-top: 6rem;
+}
+
+#contact-wrapper .linkedin,
+#contact-wrapper .instagram {
+    margin-top: 4rem;
+}
+
+#contact-wrapper .socials {
+    margin-top: 2rem;
+}
