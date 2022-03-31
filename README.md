@@ -19,4 +19,12 @@ An ongoing design choice I made was to have a consistent hover animation through
 
 ![Hover Demo](src/images/hover.gif)
 
+### In-site Messaging
+
+If a user would like to send me a quick message or question, they can do so without opening a new page with my contact form! Here is how it works:
+
+![Node Demo](src/images/node.gif)
+
+
+
 
