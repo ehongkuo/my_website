@@ -17,6 +17,6 @@ Check out this quick demo to see how my website looks/works! If interested in ch
 
 An ongoing design choice I made was to have a consistent hover animation throughout the page. This was achieved with the CSS rule: ::hover. As seen with the demo below, components are scaled up in size and the arrows horizontally.
 
-![Hover Demo]](src/images/hover.gif)
+![Hover Demo](src/images/hover.gif)
 
 
