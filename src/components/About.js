@@ -43,8 +43,6 @@ function About() {
                             <h4>Software Engineer Intern</h4>
                             <p>In my internship at Lam Research, I was able to work on a Front-End application using Blazor that displayed job data from Lam's wafer processing hardware. This data would be piped from a hardware-specific software into a JSON file which would provide the data necessary to allow search queries.</p>
                             <p>I'm very thankful for my project manager, Jackie Zhang, as well as my project partner, Kiran Davuluri, for their guidance and help on this project and their great advice!</p>
-                            <p>
-                            </p>
                         </div>
                     </div>
                     <div className="timeline-event">
