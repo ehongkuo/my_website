@@ -25,7 +25,7 @@ function About() {
                         These days, my time is spent completing coursework, adding new features to personal projects, and applying for internship positions. 
                         Out of the office, you'll find me playing guitar, shooting hoops at a nearby park, or at Chipotle.
                     </p>
-                    <a href="https://drive.google.com/file/d/1a2YO8BSrBLg6sSdXYXX1Zw0GPP3I-XHu/view?usp=sharing" className="button resume" target="_blank">
+                    <a href="https://drive.google.com/file/d/1NwX7xqtmrL7nRNgdhVplh6UKQQd1X6B3/view?usp=sharing" className="button resume" target="_blank">
                         View Resume
                         <img className="arrow" src={Arrow} alt="arrow" />
                     </a>
@@ -38,10 +38,22 @@ function About() {
                     <div className="timeline-event">
                         <label className="timeline-event-icon"></label>
                         <div className="timeline-event-copy">
+                            <p className="timeline-event-thumbnail">July - September 2022</p>
+                            <h3>Lam Research</h3>
+                            <h4>Software Engineer Intern</h4>
+                            <p>In my internship at Lam Research, I was able to work on a Front-End application using Blazor that displayed job data from Lam's wafer processing hardware. This data would be piped from a hardware-specific software into a JSON file which would provide the data necessary to allow search queries.</p>
+                            <p>I'm very thankful for my project manager, Jackie Zhang, as well as my project partner, Kiran Davuluri, for their guidance and help on this project and their great advice!</p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="timeline-event">
+                        <label className="timeline-event-icon"></label>
+                        <div className="timeline-event-copy">
                             <p className="timeline-event-thumbnail">January 2022 - Present</p>
-                            <h3>CodeLab</h3>
-                            <h4>BlockScience Developer</h4>
-                            <p>Industry Partner Developer<br/>This CodeLab term, the team and I are working with BlockScience, an engineering and analytics firm, to help in their data modeling efforts using their internal tool, cadCAD.</p>
+                            <h3>BlockScience</h3>
+                            <h4>Software Developer</h4>
+                            <p>This CodeLab term, the team and I are working with BlockScience, an engineering and analytics firm, to help in their data modeling efforts using their internal tool, cadCAD.</p>
                             <p>Right now, we are developing a cadCAD model to simulate environmental ecosystems in an effort to use this model as an example to help future users to develop their own models using cadCAD. As we are continuously making progress throughout the term, feel free to check back in to view updates on progress!</p>
                             <p>In the meantime, if you are interested in modeling a real-life system using Python, check out <a className="button cadCAD" href="http://cadcad.org/" target="_blank">
                                 cadCAD
@@ -56,7 +68,7 @@ function About() {
                             <p className="timeline-event-thumbnail">September 2021 - December 2021</p>
                             <h3>CodeLab</h3>
                             <h4>Front-End Developer</h4>
-                            <p>Spark Team Developer<br/>In CodeLab, our spark teams work on new projects under the management of club executives. This term, I was fortunate enough to take on my second front-end project (after my original personal site) using React.js. This made future front-end projects including this website much more efficient.</p>
+                            <p>In CodeLab, our spark teams work on new projects under the management of club executives. This term, I was fortunate enough to take on my second front-end project (after my original personal site) using React.js. This made future front-end projects including this website much more efficient.</p>
                             <p>This project also familiarized me with the design tool, Figma, which taught me the importance of design in creating a smooth user experience. </p>
                         </div>
                     </div>

@@ -7,11 +7,24 @@ import Work from './Work';
 import Contact from './Contact';
 import ProjectPage from './ProjectPage';
 import ScrollToTop from './ScrollToTop';
+import Footer from './Footer';
+
+import Profile from '../images/Profile.jpeg';
 
 function App() {
     return (
         <div className="App">
             <div id="mobile-error">
+                <div className="flex">
+                    <img className="profile" src={Profile} />
+                </div>
+                <div className="card">
+                    <p className="heading">Welcome to my Personal Website!</p>
+                    <p className="description">
+                        This site was imagined for a desktop experience. Visit again at <strong>ehongkuo.com</strong> <br /><br />
+                        Or, check out the source code on my Github <a className="github" href="https://github.com/ehongkuo/my_website">Here</a>
+                    </p>
+                </div>
 
             </div>
             <div id="site-container">

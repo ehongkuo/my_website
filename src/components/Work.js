@@ -24,11 +24,11 @@ function Work(props) {
                     tools="React, Figma, Node"
                 />
                 <Project 
-                    link="/"
+                    link="https://github.com/ehongkuo/my_website"
                     icon={Personal_Icon}
                     type="Frontend, UI/UX Design"
                     name="Personal Website 2.0"
-                    description="Optimized personal website using React and redesigned using Figma. You are currently looking at my new and improved website!"
+                    description="Optimized personal website using React and redesigned using Figma. You are currently looking at my new and improved website! Click here for the source code on Github."
                     tools="React, Figma"
                 />
                 <Project

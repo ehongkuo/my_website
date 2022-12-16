@@ -21,12 +21,60 @@
 }
 
 @media (max-width: 700px) {
-  #mobile-error {
-    display: block;
-  }
-  #site-container {
-    display: none;
-  }
+    #mobile-error {
+        display: block;
+    }
+
+    #mobile-error .flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mobile-error .profile {
+        margin-top: 5rem;
+        width: 50%;
+        border-radius: 2rem;
+    }
+
+    #mobile-error .card {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border-radius: 1rem;
+        box-shadow: var(--full-shadow);
+        padding: 1rem;
+    }
+
+    #mobile-error .heading,
+    #mobile-error .description,
+    #mobile-error .github {
+        background-color: transparent;
+    }
+
+    #mobile-error .heading {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    #mobile-error .description {
+        font-family: var(--font-1);
+    }
+
+    #mobile-error .github {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    #mobile-error .github:hover {
+        transition: all 0.5s;
+        color: var(--gold);
+    }
+
+    #site-container {
+        display: none;
+    }
+
 }
 
 /* Global Styling */
