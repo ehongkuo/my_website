@@ -1,7 +1,7 @@
 import "../css/About.css";
 import "../css/App.css";
 
-import FB_Profile from "../images/fb_profile.jpg";
+import Grad_Profile from "../images/grad.jpg";
 import Footer from "./Footer"
 import Arrow from "../images/right-arrow.svg";
 
@@ -14,15 +14,15 @@ function About() {
         <div id="about-wrapper">
             <div className="row introduction">
                 <div className="col-4 offset-1">
-                    <img className="about-profile" src={FB_Profile} alt="facebook profile" />
+                    <img className="about-profile" src={Grad_Profile} alt="facebook profile" />
                 </div>
                 <div className="col-5 offset-1 about-text">
                     <h1>Let Me Introduce Myself.</h1>
-                    <p className="description">Hello there! I'm Ehong, a third year student at UC Davis studying Computer Science.
-                        Through my coursework here at Davis, I have been expanding my knowledge in various subfields of computer science such as web application development and machine learning. <br/><br/>
-                        Through several opportunities to work on front-end projects, I have developed interest in creating useful websites!
-                        Currently, I hope to deepen my knowledge on website and application development while keeping my mind open to experiencing different software fields.<br/><br/>
-                        These days, my time is spent completing coursework, adding new features to personal projects, and applying for internship positions. 
+                    <p className="description">Hello there! I'm Ehong, a recent UC Davis grad with a Bachelors in Computer Science.
+                        Through my experiences, I have developed a passion for creating seamless customer experiences. <br/><br/>
+                        In my latest role with Grata, I helped build and deploy a smart home/living iOS mobile application!
+                        At Lam Research, I was involved in the development cycle of a search engine that would save 10+ engineer hours per week. 
+                        At BlockScience, I helped test an internal data-modeling Python library to simulate real-world systems like ecosystems or stock prices!<br/><br/> 
                         Out of the office, you'll find me playing guitar, shooting hoops at a nearby park, or at Chipotle.
                     </p>
                     <a href="https://drive.google.com/file/d/1NwX7xqtmrL7nRNgdhVplh6UKQQd1X6B3/view?usp=sharing" className="button resume" target="_blank">
@@ -35,6 +35,18 @@ function About() {
             <div className="experience">
                 <h1 className="heading">Experience and Involvement</h1>
                 <div className="timeline">
+                    <div className="timeline-event">
+                        <label className="timeline-event-icon"></label>
+                        <div className="timeline-event-copy">
+                            <p className="timeline-event-thumbnail">February 2023 - Present</p>
+                            <h3>Grata</h3>
+                            <h4>Software Engineer Intern</h4>
+                            <p>Working with Grata, I learned about iOS app deployment and development as I helped work on a smart home/living app. This app involved front-end technologies like SwiftUI and utilizing API calls to back-end services using Postman (An API service) and Alfred (an iOS SDK).</p>
+                            <p>
+                                This was my first role in which I was fully involved in the end-to-end functionality of the project and it taught me so much about architectures and taking ownership of feature development!
+                            </p>
+                        </div>
+                    </div>
                     <div className="timeline-event">
                         <label className="timeline-event-icon"></label>
                         <div className="timeline-event-copy">

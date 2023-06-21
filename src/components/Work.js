@@ -15,6 +15,14 @@ function Work(props) {
         <div id="work-wrapper">
              <div className="work narrow">
                 <h1 className="heading">Here's some of my favorite work:</h1>
+                <Project
+                    link=""
+                    icon={CLW_Icon}
+                    type="iOS Mobile Developement"
+                    name="Grata Technician App"
+                    description=""
+                    tools="SwiftUI, Figma, XCode"
+                />
                 <Project 
                     link="/project-page"
                     icon={CLW_Icon}
